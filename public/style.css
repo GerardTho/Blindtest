@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+video {
+  width: 80%;
+  margin-top: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+button {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+#timer {
+  font-size: 50em;
+  font-weight: bold;
+  color: #444;
+}
+
+#timer.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
